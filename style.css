@@ -1,0 +1,66 @@
+/* @import url(); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(8, 5, 49);
+}
+.container{
+    /* position: relative; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(151, 201, 229);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 10px rgb(0, 0, 0);
+    width: 800px;
+    max-width: 100%;
+}
+
+h2{
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: rgba(4, 6, 13, 0.607);
+    text-transform: capitalize;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+#jokes{
+    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+    font-family: 'Peralta', cursive;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: rgb(18, 43, 66);
+    color: white;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+    padding: 16px 35px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 5px rgb(107, 191, 255);
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.btn:hover{
+    background-color: rgb(176, 248, 255);
+    color: rgb(40, 28, 59);
+}
